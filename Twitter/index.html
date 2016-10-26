@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>App</title>
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  </head>
+  <body>
+      <div class="container">
+        <header>
+          <div class="row">
+            <div class="col-lg-12"> <!--Nombre del Sitio-->
+                <h1>TODO APP</h1>
+            </div>                             
+        </header>
+        <section>
+          <div class="form-group">
+            <textarea type="text" id="tareaInput" placeholder="Añade tu nueva tarea"></textarea>
+          </div>
+          <div class="btn-group">
+          <button type="button" class="btn btn-primary" class="boton" id="btn-agregar" value="Agregar Tarea">Añadir Tarea</button>
+          </div>
+      <div class="tareas">
+          <ul class="lista" id="lista">
+
+          </ul>
+      </div> 
+        </section>
+      </div>  <!--Cierre Container-->  
+  <script src="js/main.js"></script>  
+  </body>
+</html>
+

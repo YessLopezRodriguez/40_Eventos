@@ -1,0 +1,23 @@
+
+ 
+.tareas .lista {
+	list-style: none;
+}
+ 
+.tareas .lista li {
+	display: block;
+	margin: 10px 0;	
+	text-decoration: none;
+	background: #BDBDBD;
+
+}
+
+textarea {
+	width: 60%;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	background: blue;
+}
